@@ -1,0 +1,17 @@
+# Ignore Virtual Environment
+venv/
+.venv/
+env/
+
+# Ignore Environment Variables (API Keys)
+.env
+apikey.env
+*.env
+
+# Ignore Python Cache
+__pycache__/
+*.py[cod]
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
