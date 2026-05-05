@@ -37,7 +37,7 @@ m3.metric("Status", "Active", delta="Growing")
 st.markdown("---")
 
 # --- AI Setup ---
-API_KEY = "AIzaSyAQ4FzNyjcdUXjL20z15pT30yRez9CYJzo"
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 if API_KEY:
     genai.configure(api_key=API_KEY)
